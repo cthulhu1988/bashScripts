@@ -1,1 +1,4 @@
-sshpass -p linuxmint1! ssh ic2d@ranger2.cs.mtsu.edu
+#!/bin/bash
+
+
+sshpass -p Arch2019! ssh ic2d@system64.cs.mtsu.edu

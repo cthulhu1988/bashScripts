@@ -3,6 +3,6 @@
 MYPROGS=("guake" "atom" "steam" "okular" "vim")
 
 for PROG in "${MYPROGS[@]}"; do
-	apt-get install --dry-run $PROG -y
+	apt-get install $PROG -y
 	#echo "$PROG -y"
 done
